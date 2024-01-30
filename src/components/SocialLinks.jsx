@@ -13,7 +13,7 @@ const SocialLinks = () => {
           <FaLinkedin size={30} />
         </>
       ),
-     href: "",
+     href: "https://www.linkedin.com/in/suvadip-das-1017b31ba/",
      style: 'rounded-tr-md'
     },
     {
@@ -24,7 +24,7 @@ const SocialLinks = () => {
           <FaGithub size={30} />
         </>
       ),
-     href: "",
+     href: "https://github.com/suvadip717",
      
     },
     {
@@ -35,7 +35,7 @@ const SocialLinks = () => {
           <MdEmail size={30} />
         </>
       ),
-     href: "",
+     href: "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrmMLgbjzDfFcfkWWNWGfHWNfCtLlMmtbhsVPKBXWgxkNxZHpdfVzMGRPWwWtlpjxpvq",
      
     },
     {
