@@ -45,12 +45,12 @@ const Experience = () => {
       title: "React",
       style: "shadow-sky-300",
     },
-    {
-      id: 7,
-      src: NodeJs,
-      title: "NodeJs",
-      style: "shadow-green-600",
-    },
+    // {
+    //   id: 7,
+    //   src: NodeJs,
+    //   title: "NodeJs",
+    //   style: "shadow-green-600",
+    // },
   ];
   return (
     <div
