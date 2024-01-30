@@ -27,7 +27,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="h-20 w-full bg-slate-900 flex text-white items-center fixed px-4 justify-between">
+    <div className="h-20 w-full bg-black flex text-white items-center fixed px-4 justify-between">
       <div className="text-5xl font-signature pl-2">Suvadip</div>
       <ul className="hidden md:flex">
         {link.map(({ id, link }) => (
