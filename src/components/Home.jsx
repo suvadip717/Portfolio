@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import  HeroImage  from "../../src/assets/heroImage.png";
+import  HeroImage  from "../assets/heroImage.jpeg";
 
 const Home = () => {
   return (
@@ -27,7 +27,7 @@ const Home = () => {
           </div>
         </div>
         <div className="">
-          <img className="rounded-2xl mx-auto w-2/3 md:w-full" src={HeroImage} alt="My Profile" srcset=""/>
+          <img className="rounded-2xl mx-auto w-2/3 md:w-full" src={HeroImage} alt="https://avatars.githubusercontent.com/u/73045961?v=4" srcset=""/>
         </div>
       </div>
     </div>

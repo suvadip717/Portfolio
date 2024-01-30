@@ -46,7 +46,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-     href: "/portfolio/public/cv_SuvadipDas.pdf",
+     href: "/portfolio/public/Resume_suvadip.pdf",
      style: 'rounded-br-md',
      download: true,
     },
