@@ -5,7 +5,9 @@ import JavaScript from "../assets/experience/javascript.png";
 import GitHub from "../assets/experience/github.png";
 import TailwindCss from "../assets/experience/tailwind.png";
 import ReactPic from "../assets/experience/react.png";
-import NodeJs from "../assets/experience/node.png";
+import SpringBoot from "../assets/experience/Spring.png";
+import Java from "../assets/experience/Java.png"
+import MySQL from "../assets/experience/MySql.png"
 
 const Experience = () => {
   const techs = [
@@ -45,12 +47,24 @@ const Experience = () => {
       title: "React",
       style: "shadow-sky-300",
     },
-    // {
-    //   id: 7,
-    //   src: NodeJs,
-    //   title: "NodeJs",
-    //   style: "shadow-green-600",
-    // },
+    {
+      id: 7,
+      src: Java,
+      title: "Java",
+      style: "shadow-red-500",
+    },
+    {
+      id: 8,
+      src: SpringBoot,
+      title: "Spring Boot",
+      style: "shadow-green-600",
+    },
+    {
+      id: 9,
+      src: MySQL,
+      title: "MySQL",
+      style: "shadow-orange-500",
+    },
   ];
   return (
     <div

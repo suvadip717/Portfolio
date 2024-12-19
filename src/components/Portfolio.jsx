@@ -1,36 +1,41 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import HotelMange from "../assets/portfolio/HotelManagement.png";
+import Medium from "../assets/portfolio/Medium.png";
+import ProductManage from "../assets/portfolio/ProductManage.png";
+import Quizapp from "../assets/portfolio/quizapp.png";
+import NodeJS from "../assets/portfolio/node.jpg";
 
 const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      src: installNode,
+      src: HotelMange,
+      demo: "https://hotel-manege.site",
+      code: "https://github.com/suvadip717/Hotel-Management",
     },
     {
       id: 2,
-      src: navbar,
+      src: Medium,
+      demo: "http://ec2-43-204-221-130.ap-south-1.compute.amazonaws.com:8080/public/all-blogs",
+      code: "https://github.com/suvadip717/Medium-Application",
     },
     {
       id: 3,
-      src: reactParallax,
+      src: ProductManage,
+      demo: "https://github.com/suvadip717/Product-Management/blob/main/README.md",
+      code: "https://github.com/suvadip717/Product-Management",
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: Quizapp,
+      demo: "",
+      code: "https://github.com/suvadip717/Quiz-App",
     },
     {
       id: 5,
-      src: reactWeather,
-    },
-    {
-      id: 6,
-      src: arrayDestruct,
+      src: NodeJS,
+      demo: "",
+      code: "https://github.com/suvadip717/Backend_start",
     },
   ];
   return (
@@ -47,22 +52,28 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolio.map(({id,src}) => (
-            <div
-             key={id}
-             className="shadow-md shadow-gray-600 rounded-lg">
+          {portfolio.map(({ id, src, demo, code }) => (
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 className="rounded-md duration-200 hover:scale-105"
                 src={src}
                 alt=""
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  href={demo}
+                  target="_blank"
+                >
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  href={code}
+                  target="_blank"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
