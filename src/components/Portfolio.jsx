@@ -4,6 +4,7 @@ import Medium from "../assets/portfolio/Medium.png";
 import ProductManage from "../assets/portfolio/ProductManage.png";
 import Quizapp from "../assets/portfolio/quizapp.png";
 import NodeJS from "../assets/portfolio/node.jpg";
+import UiDesign from "../assets/portfolio/uiDesign.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -21,18 +22,24 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: UiDesign,
+      demo: "",
+      code: "https://github.com/suvadip717/React-Frontend",
+    },
+    {
+      id: 4,
       src: ProductManage,
       demo: "https://github.com/suvadip717/Product-Management/blob/main/README.md",
       code: "https://github.com/suvadip717/Product-Management",
     },
     {
-      id: 4,
+      id: 5,
       src: Quizapp,
       demo: "",
       code: "https://github.com/suvadip717/Quiz-App",
     },
     {
-      id: 5,
+      id: 6,
       src: NodeJS,
       demo: "",
       code: "https://github.com/suvadip717/Backend_start",
