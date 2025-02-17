@@ -13,17 +13,16 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-16">
-          I am Suvadip Das, a passionate Web Developer with a strong foundation
-          in both front-end and back-end technologies. I aim to leverage my
-          technical expertise, problem-solving abilities, and passion for
-          innovation to contribute meaningfully to any organization's success.
-          With a Bachelor's degree in Computer Science Engineering from Chaibasa
-          Engineering College and a Higher Secondary education from Saharda
-          Kalipada Vidyapith, I possess a solid academic background complemented
-          by practical experience in the software development field. My
-          technical skill set includes proficiency in Java, JavaScript, HTML,
-          CSS, React, Spring Boot, JPA Hibernate, MySQL, and various development
-          tools like GitHub, AWS S3, and Cloudinary.
+          I am Suvadip Das, a passionate Java Developer with a strong foundation
+          in back-end technologies. I aim to leverage my technical expertise,
+          problem-solving abilities, and passion for innovation to contribute
+          meaningfully to any organization's success. With a Bachelor's degree
+          in Computer Science Engineering from Chaibasa Engineering College and
+          a Higher Secondary education from Saharda Kalipada Vidyapith, I
+          possess a solid academic background complemented by practical
+          experience in the software development field. My technical skill set
+          includes proficiency in Java, Spring Boot, JPA Hibernate, MySQL, and
+          various development tools like GitHub, AWS S3, and Cloudinary.
         </p>
         <br />
         <p className="text-xl mt-8">
