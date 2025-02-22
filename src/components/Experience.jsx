@@ -6,8 +6,8 @@ import GitHub from "../assets/experience/github.png";
 import TailwindCss from "../assets/experience/tailwind.png";
 import ReactPic from "../assets/experience/react.png";
 import SpringBoot from "../assets/experience/Spring.png";
-import Java from "../assets/experience/Java.png"
-import MySQL from "../assets/experience/MySql.png"
+import Java from "../assets/experience/Java.png";
+import MySQL from "../assets/experience/MySql.png";
 
 const Experience = () => {
   const techs = [
@@ -69,7 +69,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-28"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
